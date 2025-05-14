@@ -16,7 +16,7 @@ fn main() {
 
     for n in start.. {
         // Sempre atualiza o último número testado
-        if let Err(e) = write_log(&mut log_last, n) {
+        if let Err(e) = std::fs::write("last_tested.txt", format!("{}\n", n)) {
             eprintln!("Erro ao escrever last_tested.txt: {}", e);
             process::exit(1);
         }
