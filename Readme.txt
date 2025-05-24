@@ -8,4 +8,4 @@ Sem argumento (inicia em 1):
 ./target/release/collatz_tester
 
 Com argumento (inicia em um n específico, ex.: 1000):
-./target/release/collatz_tester 1000
+./target/release/collatz_tester 295147905179352825856

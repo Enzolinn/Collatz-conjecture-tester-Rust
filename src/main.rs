@@ -11,7 +11,7 @@ fn main() {
         .unwrap_or(1);
 
     // Arquivos de log
-    let mut log_last = open_log("last_tested.txt");
+    let _log_last = open_log("last_tested.txt");
     let mut log_fail = open_log("counterexample.txt");
 
     for n in start.. {
